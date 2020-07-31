@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
         next.setOnClickListener {
             val intent=Intent(this,BufalloPicture::class.java)
             startActivity(intent)
+
         }
+
 
     }
 }
